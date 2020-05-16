@@ -36,9 +36,10 @@
 
 <style>
   form {
+    max-width: 100%;
     display: grid;
     grid-auto-rows: auto;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: var(--spacingXLarge);
   }
   .fields {
@@ -50,11 +51,6 @@
     display: grid;
     grid-template-columns: minmax(20vw, 10rem);
     grid-template-rows: minmax(32vw, 16rem);
-  }
-  @media (min-width: 48rem) {
-    form {
-      grid-template-columns: 60vw 20vw;
-    }
   }
 </style>
 

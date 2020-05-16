@@ -19,7 +19,8 @@
     border-radius: 25px;
     border: 2px solid var(--colorFg);
     padding: 0.75rem var(--spacingSmall) 0.75rem var(--spacingLarge);
-    width: 100%;
+    max-width: 100%;
+    width: 45vw;
   }
   textarea {
     height: 8rem;
