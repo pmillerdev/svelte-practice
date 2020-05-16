@@ -105,7 +105,7 @@
     {isValidUrl(book.cover) ? 'book--cover' : 'book--no-cover'}">
     <span
       class="cover"
-      style={isValidUrl(book.cover) ? 'background-image: url' + book.cover + ')' : ''}>
+      style={isValidUrl(book.cover) ? 'background-image: url(' + book.cover + ')' : ''}>
       <span class="title">{book.title || ''}</span>
       <span class="author">{book.author || ''}</span>
     </span>
