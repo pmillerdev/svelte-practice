@@ -1,8 +1,8 @@
 <script>
   import { onMount } from "svelte";
-  import BookGrid from "../common/BookGrid.svelte";
-  import Button from "../common/Button.svelte";
-  import { httpGet } from "../common/api.js";
+  import BookGrid from "./BookGrid.svelte";
+  import Button from "./Button.svelte";
+  import { httpGet } from "../api.js";
 
   // initialise books array
   let books = [];

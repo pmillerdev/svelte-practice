@@ -1,11 +1,11 @@
 <script>
   import { onMount } from "svelte";
 
-  import BackButtonRow from "../common/BackButtonRow.svelte";
-  import BookCover from "../common/BookCover.svelte";
-  import Button from "../common/Button.svelte";
-  import Header from "../common/Header.svelte";
-  import { httpGet, httpPut } from "../common/api.js";
+  import BackButtonRow from "./BackButtonRow.svelte";
+  import BookCover from "./BookCover.svelte";
+  import Button from "./Button.svelte";
+  import Header from "./Header.svelte";
+  import { httpGet, httpPut } from "../api.js";
 
   export let id;
 

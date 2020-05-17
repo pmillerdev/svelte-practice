@@ -1,10 +1,10 @@
 <script>
   import { navigate } from "svelte-routing";
-  import BackButtonRow from "../common/BackButtonRow.svelte";
-  import BookCover from "../common/BookCover.svelte";
-  import Button from "../common/Button.svelte";
-  import Header from "../common/Header.svelte";
-  import { httpPost } from "../common/api.js";
+  import BackButtonRow from "./BackButtonRow.svelte";
+  import BookCover from "./BookCover.svelte";
+  import Button from "./Button.svelte";
+  import Header from "./Header.svelte";
+  import { httpPost } from "../api.js";
 
   import TextInput from "./TextInput.svelte";
 
